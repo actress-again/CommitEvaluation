@@ -1,0 +1,7 @@
+#!/bin/sh
+
+MESSAGE_FILE=$1
+
+java -cp bin controller.CommitAnalyzer "$MESSAGE_FILE"
+
+exit $?
